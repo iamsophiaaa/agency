@@ -4,6 +4,7 @@ import Services from "./components/Services";
 import Nav from "./components/Nav";
 import Work from "./components/Work";
 import Team from "./components/Team";
+import ContactUs from "./components/ContactUs";
 import { useState } from "react";
 const App = () => {
   const [theme, setTheme] = useState(
@@ -18,6 +19,7 @@ const App = () => {
         <Services />
         <Work />
         <Team />
+        <ContactUs />
       </div>
     </>
   );
